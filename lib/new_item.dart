@@ -24,7 +24,7 @@ class _NewItemState extends State<NewItem> {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
       final url = Uri.https(
-        'shoppinglist-71fa0-default-rtdb.firebaseio.com',
+        'shopping-list-a586f-default-rtdb.firebaseio.com',
         'shopping-list.json',
       );
       http.post(
